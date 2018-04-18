@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter</title>
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		#nav {
+			background-color: #FFEEEE;
+		}
+
+		#left-sidebar {
+			background-color: #cccccc;
+		}
+
+		#center {
+			background-color: #ff8484;
+			border-radius: 20px;
+		}
+
+		#right-sidebar {
+			background-color: #cccccc;
+		}
+
+		#footer {
+			background-color: #a51528;
+		}
+
+		.post-image {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+		}
+
+		.post {
+			border-bottom: 3px solid #a51528;
+		}
+
+		#navbar-ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.navbar-li {
+			display: inline-block;
+			padding-right: 40px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			line-height: 30px;
+		}
+
+		.fa-earlybirds {
+			color: #a51528;
+			font-size: 30px;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="navbar" class="col-12">
+				<ul id="navbar-ul">
+					<li class="navbar-li"><i class="fab fa-earlybirds"></i> <span id="homepage-title"> 
+					Synergy Productions </span> </li>
+					<li class="navbar-li"><a href="https://google.com">Home</a></li>
+					<li class="navbar-li"><a href="https://google.com">Posts</a></li>
+					<li class="navbar-li"><a href="https://google.com">Profile</a></li>
+					<li class="navbar-li"><a href="https://google.com">Notifications</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="main-content" class="row">
+			<div id="left-sidebar" class="col-3">
+				<p>This is my left-sidebar</p>
+			</div>
+			<div id="center" class="col-6">
+				<div class="post row">
+					<div class="col-5 img-side">
+						<img class="post-image" src="https://pbs.twimg.com/profile_images/877266648356474880/_NFUJA4U_400x400.jpg">
+					</div>
+					<div class="col-7 text-side">
+						<p>Synergy @synergyprd - 3/6/2018</p>
+						<p>Caught a bag, it's a pretty good bag. #likethenorthface</p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col-5 img-side">
+						<img class="post-image" src="https://pbs.twimg.com/profile_images/877266648356474880/_NFUJA4U_400x400.jpg">
+					</div>
+					<div class="col-7 text-side">
+						<p>Synergy @synergyprd - 3/6/2018</p>
+						<p>Caught a fish, it's a pretty good fish. #yummmm</p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col-5 img-side">
+						<img class="post-image" src="https://pbs.twimg.com/profile_images/877266648356474880/_NFUJA4U_400x400.jpg">
+					</div>
+					<div class="col-7 text-side">
+						<p>Synergy @synergyprd - 3/6/2018</p>
+						<p>Caught a fish, it's a pretty good fish. #yummmm</p>
+					</div>
+				</div>
+			</div>
+			<div id="right-sidebar" class="col-3">
+				<p>This is my right-sidebar</p>
+			</div>
+		</div>
+
+		<div id="footer" class="row">
+			<p>This is my left-sidebar</p>
+		</div>		
+
+</body>
+</html>
